@@ -112,10 +112,7 @@ namespace dot_net_study.Services
                 Console.WriteLine($"{name} não existe");
             }
         }
-        private bool findElement(string name) {
-            return products.Any(x => x == name);
-        }
-
+        private bool findElement(string name) => products.Any(x => x == name);
     }
 }
 

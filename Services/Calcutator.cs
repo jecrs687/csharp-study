@@ -12,8 +12,7 @@ namespace dot_net_study.Services
 			Console.Write("\n Escreva dois números consecutivos: \n");
 			int a = Convert.ToInt32(Console.ReadLine());
             int b = Convert.ToInt32(Console.ReadLine());
-			Dictionary<int, int> witchOption = new Dictionary<int, int>()
-			{
+			Dictionary<int, int> witchOption = new (){
 			{1, Sum(a,b)},
 			{2, Sub(a,b)},
 			{3, Mul(a,b)},
